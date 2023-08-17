@@ -1,14 +1,18 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>@groupId@</groupId>
-  <artifactId>@artifactId@</artifactId>
-  <version>@version@</version>
+  
+  <!-- Project coordinates -->
+  <groupId>com.deepak</groupId>
+  <artifactId>java-project</artifactId>
+  <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>@ant.project.name@</name>
-  <description>@description@</description>
-  <url>@project.url@</url>
+  <!-- Project details -->
+  <name>Java Sample Project</name>
+  <description>Sample Java project for CI/CD</description>
+  <url>http://github.com/deepaksasindran/java</url>
 
+  <!-- License details -->
   <licenses>
     <license>
       <name>The Unlicense</name>
@@ -17,19 +21,20 @@
     </license>
   </licenses>
 
+  <!-- SCM details -->
   <scm>
-    <connection>
-      scm:git:@project.repo.url@
-    </connection>
-    <url>@project.scm.url@</url>
+    <connection>scm:git:git://github.com/deepaksasindran/java.git</connection>
+    <url>http://github.com/deepaksasindran/java</url>
   </scm>
 
+  <!-- Developer details -->
   <developers>
     <developer>
-      <name>Christopher Wellons</name>
-      <email>mosquitopsu@gmail.com</email>
-      <url>http://nullprogram.com</url>
-      <timezone>-5</timezone>
+      <name>Deepak</name>
+      <email>deepak@example.com</email>
+      <url>http://deepak-portfolio.com</url>
+      <timezone>+5.5</timezone> <!-- Adjust according to your timezone -->
     </developer>
   </developers>
 </project>
+
